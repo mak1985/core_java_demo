@@ -1,9 +1,9 @@
 package session06;
 
-public class SingleDimensionalArray {
-
-    public static void main(String[] args) {
-
+public class SingleDimensionalArray
+{
+    public static void main(String[] args)
+    {
         //Declare and initialization/instantiation - approach 1
         int [] emp_salary = new int[5];
         //String [] company = new String[5];
@@ -19,7 +19,6 @@ public class SingleDimensionalArray {
         //Declare and initialization/instantiation - approach 2
         int [] emp_sal = {50000,60000, 70000,80000,80000,100, 25555, 122222};
 
-
         //print size of an array
         System.out.println("Size of an array: " + emp_salary.length);//5
 
@@ -29,6 +28,19 @@ public class SingleDimensionalArray {
         System.out.println("Value of 4th element: " + emp_salary[3]);//80000
 
         System.out.println("Value of 4th element for emp_sal: " + emp_sal[3]);
+
+        //Read all the values of an array
+        for(int i = 0; i < emp_sal.length; i++)
+        {
+            System.out.println("for loop :" +emp_sal[i]);
+        }
+
+        //for each loop(enhanced loop) specially use for an array
+        for(int i : emp_sal)
+        {
+            System.out.println(i);
+        }
+
 
     }
 }
