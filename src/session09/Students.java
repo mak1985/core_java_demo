@@ -2,7 +2,7 @@ package session09;
 
 public class Students {
     // instance variables
-    String name; //declaration
+    public String name; //declaration
     int roll_no;//declaration
 
     //method to display information
