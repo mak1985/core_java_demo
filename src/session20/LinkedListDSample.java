@@ -18,6 +18,9 @@ public class LinkedListDSample {
         list2.add("Harry");
         list2.add("Peter");
 
+
+
+
         list.addAll(list2);
         System.out.println("After adding collection1 to collection 2" + list);
 
